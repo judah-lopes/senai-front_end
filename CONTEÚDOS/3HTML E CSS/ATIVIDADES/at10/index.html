@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/geral.css">
+    <link rel="stylesheet" href="styles/reduzida.css" media="screen and (max-width: 768px)">
+    <title>H&C - Atividade 10</title>
+</head>
+<body>
+<!--!- CABEÇALHO ---->
+    <header>
+        <div class="logo">
+            <h1>ArtMuseum</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Galeria</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="menuMobile" onclick="openMenuMobile()">
+            <h1> - </h1>
+        </div>
+    </header>
+<!--!---- MAIN ------>
+    <main>
+        <h2>Destaque da semana</h2>
+    <!--!---- ARTE ------->
+        <section class="arteDestaque">
+            <article>
+                <div>
+                    <h3>Elizabeth</h3>
+                    <figure>
+                        <source srcset="images/elizabethReduzida.png" media="screen and (max-width: 768px)">
+                        <img src="images/elizabeth.jpg" alt="Elizabeth">
+                        <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti in autem minima eos sequi esse, saepe iusto asperiores! Porro officiis perferendis voluptatum quidem iusto harum nam voluptates. Quas, enim voluptas. Maxime eligendi fugiat natus quisquam?</figcaption>
+                    </figure>
+                    <button>Ver sobre</button>
+                </div>
+            </article>
+        </section>
+    <!--!---- TEXTO ------->
+        <section class="p">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum dicta fuga id, at molestias ipsum enim aliquam necessitatibus. Placeat, asperiores. Delectus nemo, magnam ducimus corporis ea error explicabo rerum deserunt! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda iure quam harum fuga delectus officia neque illo quibusdam eaque saepe id deserunt sunt, magnam, reiciendis error, numquam natus cumque ad.</p>
+        </section>
+    <!--!- MAIS ARTES ----->
+        <h2>Artes</h2>
+        <section class="maisArtes">
+            <article class="arte1">
+                <div>
+                    <h3>Título da arte</h3>
+                    <figure>
+                        <img src="images/arte3.jpg" alt="arte 1">
+                        <figcaption>Descrição da arte</figcaption>
+                    </figure>
+                    <button>Ver sobre</button>
+                </div>
+            </article>
+            <article class="arte2">
+                <div>
+                    <h3>Título da arte</h3>
+                    <figure>
+                        <img src="images/arte2.jpg" alt="arte 1">
+                        <figcaption>Descrição da arte</figcaption>
+                    </figure>
+                    <button>Ver sobre</button>
+                </div>
+            </article>
+            <article class="arte3">
+                <div>
+                    <h3>Título da arte</h3>
+                    <figure>
+                        <img src="images/arte1.jpg" alt="arte 1">
+                        <figcaption>Descrição da arte</figcaption>
+                    </figure>
+                    <button>Ver sobre</button>
+                </div>
+            </article>
+        </section>
+    </main>
+<!--!-- FOOTER ---->
+    <footer>
+    <p>ArtMuseum © 2023</p>
+    </footer>
+<!--?-- SCRIPT ---->
+    <script src="index.js"></script>
+</body>
+</html>

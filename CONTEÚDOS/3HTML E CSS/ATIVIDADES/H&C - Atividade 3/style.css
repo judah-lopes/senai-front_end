@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Dela+Gothic+One&family=Inter&family=Lexend:wght@300;400;500&family=Young+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/*------ CABECALHO ------*/
+nav {
+    width: 100%;
+    background-color: #303030;
+
+    font-family: inter;
+    font-size: 1.5em;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+}
+#links{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    align-items:center ;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+nav li{
+    list-style: none;
+    padding: 0px 0.7em;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    cursor: pointer;
+}
+#logo{
+    width: 9%;
+    margin: auto;
+    padding-right: 25%;
+}
+#logo img{
+    width: 100%
+}
+/*------ CONTEUDO -----*/
+main img{
+    width: 100%;
+}

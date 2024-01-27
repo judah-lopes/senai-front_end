@@ -1,0 +1,27 @@
+
+main{
+    width: 80%;
+
+    background-color: var(--cor-secundaria);
+    
+    margin: 20px auto;
+    padding: 20px;
+
+    border-radius: 20px;
+    box-shadow: #21201e 6px 6px;
+}
+main h1{
+    color: var(--cor-principal);
+    text-align: center;
+}
+h2{
+    color: var(--cor-principal);
+    padding-left: 15px;
+}
+p{
+    padding: 1em;
+    color: var(--cor-terciaria);
+}
+.firstSection{
+    display: flex;
+}

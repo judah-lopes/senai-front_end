@@ -1,0 +1,35 @@
+.pagina{
+    background-color: #ACA99A;
+}
+main{
+    background-color: #092c29;
+}
+h2{
+    color: #b38568;
+}
+label{
+    color: #ACA99A;
+}
+input::placeholder{
+    color: #18433f92;
+}
+input:focus{
+    background-color: white;
+}
+button{
+    background-color: #b38568;
+    
+    color: #092c29;
+
+}
+button:hover{
+    background-color: #bd9d89;
+    
+    color: #18413d;
+}
+p{
+    color: #ACA99A;
+}
+a{
+    color: #46b2c0;
+}

@@ -1,0 +1,151 @@
+@keyframes mudarBackground {
+    10%{
+        background-image: url(../../assets/posters/banner-one_piece.jpg);
+        transition: 0.3ms;
+    }
+    20%{
+        background-image: url(../../assets/posters/banner-breaking_bad.png);
+        transition: 0.3ms;
+    }
+    30%{
+        background-image: url(../../assets/posters/banner-lucifer.png);     
+        transition: 0.3ms;
+    }
+    40%{
+        background-image: url(../../assets/posters/banner-cidade_invisivel.jpg);     
+        transition: 0.3ms;
+    }
+    50%{
+        background-image: url(../../assets/posters/banner-peaky_blinders.png);     
+        transition: 0.3ms;
+    }
+    60%{
+        background-image: url(../../assets/posters/banner-the_witcher.jpg);     
+        transition: 0.3ms;
+    }
+    70%{
+        background-image: url(../../assets/posters/banner-elite.jpg);     
+        transition: 0.3ms;
+    }
+    80%{
+        background-image: url(../../assets/posters/banner-stranger_things.jpg);     
+        transition: 0.3ms;
+    }
+    90%{
+        background-image: url(../../assets/posters/banner-casa_de_papel.png);     
+        transition: 0.3ms;
+    }
+    100%{
+        background-image: url(../../assets/posters/banner-the_chosen.jpg);     
+        transition: 0.3ms;
+    }
+}
+body{
+    background-image: url(../../assets/posters/banner-the_chosen.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    animation: mudarBackground 60s infinite;
+}
+/*!------ MAIN ------*/
+main{
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    /*!------ container ------*/
+    .container{
+        margin-bottom: 5rem;
+        width: 19.5rem;
+        min-height: 27rem;
+        padding: 3.75rem 4.25rem;
+
+        display: flex;
+        flex-direction: column;
+
+        background-color: #000000c2;
+        border-radius: 5px;
+    }
+    h1{
+        margin-bottom: 1.75rem;
+        
+        font-size: 2rem;
+    }
+        /*!------ content ------*/
+        .content{
+            height: 22.5rem;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /*?------ Form ------*/
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+        form input{
+            margin-bottom: 1rem;
+            padding: 0.5rem 1.25rem 0.5rem;
+            height: 2rem;
+            
+            border: none;
+            border-radius: 5px;
+
+            background-color: #3d3d3d;
+        }
+        form input::placeholder{
+            position: absolute;
+            top: 1rem;
+            
+            color: #ffffff60;
+        }
+        input:focus{
+            background-color: #ffffffa2;
+            color: black;
+        }
+        form button{
+            margin: 2rem 0rem 0.5rem;
+            padding: 1rem;
+
+            background-color: var(--red-netflix);
+            
+            border: none;
+            border-radius: 5px;
+
+            font-size: 1rem;
+            text-align: center;
+        }
+        section{
+            display: flex;
+            justify-content: space-between;
+        }
+        .lembrarUsuario{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            
+            font-size: 0.875rem;
+            color: #ffffff6c;
+        }
+        .lembrarUsuario input{
+            accent-color: #E50914;
+        }
+
+        /**-- recuperar senha --*/
+        section a{
+            font-size: 0.875rem;
+            color: #ffffff6c;
+        }
+        /**--- cadastro ---*/
+        .cadastro{
+            padding-top: 5px;
+
+            font-size: 0.9rem;
+        }
+        .cadastro p{
+            color: #ffffff6c;
+        }   

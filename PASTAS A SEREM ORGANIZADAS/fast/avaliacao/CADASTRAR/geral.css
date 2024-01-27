@@ -1,0 +1,45 @@
+*{  
+    margin: 0;
+    padding: 0;
+    font-family: Netflix Sans;
+    color: #333;
+
+    --red-netflix: #E50914;
+    --red-button: #7a0006;
+
+    font-size: 62.5%;
+}
+@font-face {
+    font-family: Netflix Sans;
+    src: url(/avaliacao/assets/fonte/netflix-sans-font/NetflixSans-Medium.otf);
+}
+@font-face {
+    font-family: Netflix Sans Light;
+    src: url(/avaliacao/assets/fonte/netflix-sans-font/NetflixSans-Light.otf);
+}
+.botao:hover{
+    text-decoration: underline;
+}
+h3, p{
+    font-family: Netflix Sans Light;
+}
+span{
+    font-family: Netflix Sans;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: -16rem;
+    background-color: #9292922a;
+}
+footer p{
+    padding-left: 5rem;
+    line-height: 5rem;
+}
+footer a, footer p{
+    color: #3a3939a6;
+}

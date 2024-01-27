@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix - Home</title>
+    <link rel="shortcut icon" href="../../../assets/logo/simbolo/01_Netflix_Symbol_RGB/Netflix_Symbol_RGB.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="../../css/geral.css">
+    <link rel="stylesheet" href="../../css/home.css">
+</head>
+<body class="bg-black">
+<!--! HEADER --->
+  <header>
+    <nav class="navbar navbar-expand-lg py-1 bg-black " id="navbar">
+      <div class="container-fluid ps-1">
+        <a class="navbar-brand" style="width: 250px;" href="#">
+          <img src="../../../assets/logo/logo/01_Netflix_Logo_RGB/Netflix_Logo_RGB.png" alt="Netflix" style="width: 100%;">
+        </a>
+      <!--? Mobile --->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <!--!-- Links ----->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-2">
+            <li class="nav-item mx-1 ">
+              <a class="nav-link active" aria-current="Home" href="#">Home</a>
+            </li>
+            <li class="nav-item mx-1">
+              <a class="nav-link" href="#seriesTV">Séries TV</a>
+            </li>
+            <li class="nav-item mx-1">
+              <a class="nav-link" href="#emAlta">Em alta</a>
+            </li>
+            <li class="nav-item mx-1">
+              <a class="nav-link" href="#terror">Terror</a>
+            </li>
+            <li class="nav-item mx-1">
+              <a class="nav-link" href="#suspense">Suspense</a>
+            </li>
+            <li class="nav-item mx-1">
+              <a class="nav-link" href="#topSemana">Top 10</a>
+            </li>
+          </ul>
+        </div>
+      <!--? Acesso Cliente --->
+        <aside class="d-flex d-md-none d-lg-flex align-items-center gap-3">
+          <img class="lupa" src="../../../assets/ícones/lupa.png" alt="lupa" style="height: 2rem;">
+          <p class="m-0" style="font-size: 1.2rem;">SALOMÃO</p>
+          <img class="profilePhoto" src="../../../assets/ícones de usuário/140 - Rh8hQPy.png" alt="Perfil" style="height: 5rem;">
+        <!--!-- Modal direita ----->
+          <button class="btn btn-basic" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+            <img src="../../../assets/ícones/seta.png" alt="seta" class="seta" style="width: 1.3rem;">
+          </button>
+        </aside>
+      </div>
+    </nav>
+  </header>
+        
+<!--! MAIN -->
+  <main>
+    <!--? Carousel --->
+      <div id="carouselExample" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active" id="c-4">
+            <div class="contentBanner d-flex flex-column justify-content-center pt-5 h-100">
+              <h2>NETFLIX ORIGINALS</h2>
+              <h1>ONE PIECE</h1>
+              <h3> A série</h3>
+              <p class="ps-2">O jovem pirata Monkey D. Luffy veste o chapéu de palha e, com sua tripulação atrapalhada, zarpa em uma jornada épica nesta adaptação em live-action do popular mangá.</p>
+              <div class="fBButtons d-flex">
+                <button class="d-flex align-items-center"><img src="../../../assets/ícones/play.png" alt="">Assistir</button>
+                <button class="d-flex align-items-center"><img src="../../../assets/ícones/plus.png" alt="">Adicionar a lista</button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" id="c-5">
+            <div class="contentBanner d-flex flex-column justify-content-center pt-5 h-100">
+              <h2>NETFLIX ORIGINALS</h2>
+              <h1>PEAKY BLINDERS</h1>
+              <h3> PEAKY FCKN BLINDERS</h3>
+              <p class="ps-2">Uma notória gangue da Inglaterra de 1919 ascende no submundo liderada pelo cruel Tommy Shelby, um criminoso disposto a subir na vida a qualquer preço.</p>
+              <div class="fBButtons d-flex">
+                <button class="d-flex align-items-center"><img src="../../../assets/ícones/play.png" alt="">Assistir</button>
+                <button class="d-flex align-items-center"><img src="../../../assets/ícones/plus.png" alt="">Adicionar a lista</button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" id="c-1">
+            <div class="contentBanner d-flex flex-column justify-content-center pt-5 h-100">
+              <h2>NETFLIX ORIGINALS</h2>
+              <h1>NARCOS</h1>
+              <h3> TEMPORADA 3</h3>
+              <p class="ps-2">A notória série sobre o tráfico é baseada na história real de violência e poder dos cartéis colombianos.</p>
+              <div class="fBButtons d-flex">
+                <button class="d-flex align-items-center"><img src="../../../assets/ícones/play.png" alt="">Assistir</button>
+                <button class="d-flex align-items-center"><img src="../../../assets/ícones/plus.png" alt="">Adicionar a lista</button>
+              </div>
+            </div>   
+          </div>
+          <div class="carousel-item" id="c-2">
+            <div class="contentBanner d-flex flex-column justify-content-center pt-5 h-100">
+              <h2>CINEMA FRANCÊS</h2>
+              <h1>POLONAIS</h1>
+              <h3> UM FILME ORIGINAL - 2018</h3>
+              <p class="ps-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum aperiam porro dolorum possimus saepe nam optio odit sed harum officiis fugiat laudantium sunt velit consequuntur, illum quas vero eaque. Distinctio.</p>
+              <div class="fBButtons d-flex">
+                <button class="d-flex align-items-center"><img src="../../../assets/ícones/play.png" alt="">Assistir</button>
+                <button class="d-flex align-items-center"><img src="../../../assets/ícones/plus.png" alt="">Adicionar a lista</button>
+              </div>
+            </div>  
+          </div>
+          <div class="carousel-item" id="c-3">
+            <div class="contentBanner d-flex flex-column justify-content-center pt-5 h-100">
+              <h2>SÉRIE HISTÓRICA</h2>
+              <h1> BREAKING BAD</h1>
+              <p class="ps-2">O professor de química Walter White não acredita que sua vida possa piorar ainda mais. Quando descobre que tem câncer terminal, Walter decide arriscar tudo para ganhar dinheiro enquanto pode, transformando sua van em um laboratório de metanfetamina.</p>
+              <div class="fBButtons d-flex">
+                <button class="d-flex align-items-center"><img src="../../../assets/ícones/play.png" alt="">Assistir</button>
+                <button class="d-flex align-items-center"><img src="../../../assets/ícones/plus.png" alt="">Adicionar a lista</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev " type="button" data-bs-target="#carouselExample" data-bs-slide="prev" style="width: 5%;">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next" style="width: 5%;">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>  
+
+    <!--? Series --->
+      <section class="series w-100bg-black " style="margin-bottom: 1.5rem; padding: 0 20px;">
+        <article class="seriesList bg-black" id="seriesTV">
+          <h3>Séries TV</h3>
+          <div id="carousel-seriesTV" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="seriesCapas d-flex justify-content-between">
+                  <img src="../../../assets/images/11abstract.png" alt="">
+                  <img src="../../../assets/images/12laCasaDePapel.png" alt="">
+                  <img src="../../../assets/images/13houseOfCards.png" alt="">
+                  <img src="../../../assets/images/14uglyDelicious.png" alt="">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="seriesCapas d-flex justify-content-between">
+                  <img src="../../../assets/images/53prisons.png" alt="">
+                  <img src="../../../assets/images/23fauda.png" alt="">
+                  <img src="../../../assets/images/31elChapo.png" alt="">
+                  <img src="../../../assets/images/24dirtyMoney.png" alt="">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="seriesCapas d-flex justify-content-between">
+                  <img src="../../../assets/images/52suburra.png" alt="">
+                  <img src="../../../assets/images/32theCrown.png" alt="">
+                  <img src="../../../assets/images/41reasonsWhy.png" alt="">
+                  <img src="../../../assets/images/21troie.png" alt="">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="seriesCapas d-flex justify-content-between">
+                  <img src="../../../assets/images/33clubJuventus.png" alt="">
+                  <img src="../../../assets/images/43agentsSecrets.png" alt="">
+                  <img src="../../../assets/images/51marcoPolo.png" alt="">
+                  <img src="../../../assets/images/22narcos.png" alt="">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="seriesCapas d-flex justify-content-between">
+                  <img src="../../../assets/images/42trump.png" alt="">
+                  <img src="../../../assets/images/34blackMirror.png" alt="">
+                  <img src="../../../assets/images/54comedians.png" alt="">
+                  <img src="../../../assets/images/44unsolved.png" alt="">
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-seriesTV" data-bs-slide="prev" style="width: 5%;">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-seriesTV" data-bs-slide="next" style="width: 5%">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </article>
+        <article class="seriesList bg-black" id="emAlta">
+          <h3>Em Alta</h3>
+          <div id="carousel-emAlta" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="seriesCapas d-flex justify-content-between">
+                  <img src="../../../assets/images/21troie.png" alt="">
+                  <img src="../../../assets/images/22narcos.png" alt="">
+                  <img src="../../../assets/images/23fauda.png" alt="">
+                  <img src="../../../assets/images/24dirtyMoney.png" alt="">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="seriesCapas d-flex justify-content-between">
+                  <img src="../../../assets/images/13houseOfCards.png" alt="">
+                  <img src="../../../assets/images/32theCrown.png" alt="">
+                  <img src="../../../assets/images/51marcoPolo.png" alt="">
+                  <img src="../../../assets/images/12laCasaDePapel.png" alt="">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="seriesCapas d-flex justify-content-between">
+                  <img src="../../../assets/images/42trump.png" alt="">
+                  <img src="../../../assets/images/31elChapo.png" alt="">
+                  <img src="../../../assets/images/43agentsSecrets.png" alt="">
+                  <img src="../../../assets/images/53prisons.png" alt="">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="seriesCapas d-flex justify-content-between">
+                  <img src="../../../assets/images/54comedians.png" alt="">
+                  <img src="../../../assets/images/41reasonsWhy.png" alt="">
+                  <img src="../../../assets/images/33clubJuventus.png" alt="">
+                  <img src="../../../assets/images/14uglyDelicious.png" alt="">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="seriesCapas d-flex justify-content-between">
+                  <img src="../../../assets/images/52suburra.png" alt="">
+                  <img src="../../../assets/images/34blackMirror.png" alt="">
+                  <img src="../../../assets/images/44unsolved.png" alt="">
+                  <img src="../../../assets/images/11abstract.png" alt="">
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-emAlta" data-bs-slide="prev" style="width: 5%;">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-emAlta" data-bs-slide="next" style="width: 5%;">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </article>
+        <article class="seriesList bg-black" id="terror">
+          <h3>Terror</h3>
+          <div id="carousel-terror" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="seriesCapas d-flex justify-content-between">
+                  <img src="../../../assets/images/31elChapo.png" alt="">
+                  <img src="../../../assets/images/32theCrown.png" alt="">
+                  <img src="../../../assets/images/33clubJuventus.png" alt="">
+                  <img src="../../../assets/images/34blackMirror.png" alt="">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="seriesCapas d-flex justify-content-between">
+                  <img src="../../../assets/images/13houseOfCards.png" alt="">
+                  <img src="../../../assets/images/42trump.png" alt="">
+                  <img src="../../../assets/images/53prisons.png" alt="">
+                  <img src="../../../assets/images/22narcos.png" alt="">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="seriesCapas d-flex justify-content-between">
+                  <img src="../../../assets/images/44unsolved.png" alt="">
+                  <img src="../../../assets/images/23fauda.png" alt="">
+                  <img src="../../../assets/images/11abstract.png" alt="">
+                  <img src="../../../assets/images/54comedians.png" alt="">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="seriesCapas d-flex justify-content-between">
+                  <img src="../../../assets/images/12laCasaDePapel.png" alt="">
+                  <img src="../../../assets/images/21troie.png" alt="">
+                  <img src="../../../assets/images/41reasonsWhy.png" alt="">
+                  <img src="../../../assets/images/52suburra.png" alt="">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="seriesCapas d-flex justify-content-between">
+                  <img src="../../../assets/images/14uglyDelicious.png" alt="">
+                  <img src="../../../assets/images/43agentsSecrets.png" alt="">
+                  <img src="../../../assets/images/51marcoPolo.png" alt="">
+                  <img src="../../../assets/images/24dirtyMoney.png" alt="">
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-terror" data-bs-slide="prev" style="width: 5%;">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-terror" data-bs-slide="next" style="width: 5%;">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </article>
+        <article class="seriesList bg-black" id="suspense">
+          <h3>Suspense</h3>
+          <div id="carousel-suspense" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="seriesCapas d-flex justify-content-between">
+                  <img src="../../../assets/images/41reasonsWhy.png" alt="">
+                  <img src="../../../assets/images/42trump.png" alt="">
+                  <img src="../../../assets/images/43agentsSecrets.png" alt="">
+                  <img src="../../../assets/images/44unsolved.png" alt="">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="seriesCapas d-flex justify-content-between">
+                  <img src="../../../assets/images/24dirtyMoney.png" alt="">
+                  <img src="../../../assets/images/34blackMirror.png" alt="">
+                  <img src="../../../assets/images/11abstract.png" alt="">
+                  <img src="../../../assets/images/54comedians.png" alt="">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="seriesCapas d-flex justify-content-between">
+                  <img src="../../../assets/images/23fauda.png" alt="">
+                  <img src="../../../assets/images/32theCrown.png" alt="">
+                  <img src="../../../assets/images/13houseOfCards.png" alt="">
+                  <img src="../../../assets/images/53prisons.png" alt="">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="seriesCapas d-flex justify-content-between">
+                  <img src="../../../assets/images/33clubJuventus.png" alt="">
+                  <img src="../../../assets/images/22narcos.png" alt="">
+                  <img src="../../../assets/images/14uglyDelicious.png" alt="">
+                  <img src="../../../assets/images/52suburra.png" alt="">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="seriesCapas d-flex justify-content-between">
+                  <img src="../../../assets/images/31elChapo.png" alt="">
+                  <img src="../../../assets/images/51marcoPolo.png" alt="">
+                  <img src="../../../assets/images/21troie.png" alt="">
+                  <img src="../../../assets/images/12laCasaDePapel.png" alt="">
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-suspense" data-bs-slide="prev" style="width: 5%;">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-suspense" data-bs-slide="next" style="width: 5%;">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </article>
+        <article class="seriesList bg-black" id="topSemana">
+          <h3>Top da Semana</h3>
+          <div id="carousel-topSemana" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="seriesCapas d-flex justify-content-between">
+                  <img src="../../../assets/images/51marcoPolo.png" alt="">
+                  <img src="../../../assets/images/52suburra.png" alt="">
+                  <img src="../../../assets/images/53prisons.png" alt="">
+                  <img src="../../../assets/images/54comedians.png" alt="">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="seriesCapas d-flex justify-content-between">
+                  <img src="../../../assets/images/44unsolved.png" alt="">
+                  <img src="../../../assets/images/33clubJuventus.png" alt="">
+                  <img src="../../../assets/images/12laCasaDePapel.png" alt="">
+                  <img src="../../../assets/images/23fauda.png" alt="">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="seriesCapas d-flex justify-content-between">
+                  <img src="../../../assets/images/21troie.png" alt="">
+                  <img src="../../../assets/images/13houseOfCards.png" alt="">
+                  <img src="../../../assets/images/43agentsSecrets.png" alt="">
+                  <img src="../../../assets/images/32theCrown.png" alt="">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="seriesCapas d-flex justify-content-between">
+                  <img src="../../../assets/images/31elChapo.png" alt="">
+                  <img src="../../../assets/images/22narcos.png" alt="">
+                  <img src="../../../assets/images/11abstract.png" alt="">
+                  <img src="../../../assets/images/42trump.png" alt="">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="seriesCapas d-flex justify-content-between">
+                  <img src="../../../assets/images/24dirtyMoney.png" alt="">
+                  <img src="../../../assets/images/41reasonsWhy.png" alt="">
+                  <img src="../../../assets/images/14uglyDelicious.png" alt="">
+                  <img src="../../../assets/images/34blackMirror.png" alt="">
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-topSemana" data-bs-slide="prev" style="width: 5%;">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-topSemana" data-bs-slide="next" style="width: 5%;">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </article>
+      </section>
+    <!--? Categorias --->
+      <section class="categorias w-100 bg-black">
+        <h3 class="bg-black">Categorias</h3>
+        <div class="categoriasList d-flex justify-content-between">
+            <div class="w-100 text-center" id="cat1">Comédia</div>
+            <div class="w-100 text-center" id="cat2">Ação</div>
+            <div class="w-100 text-center" id="cat3">Drama</div>
+            <div class="w-100 text-center" id="cat4">Sci-Fi</div>
+            <div class="w-100 text-center" id="cat5">Romance</div>
+            <div class="w-100 text-center" id="cat6">Thriller</div>
+            <div class="w-100 text-center" id="cat7">Terror</div>
+        </div>
+      </section>
+  </main>
+  <footer class="w-100 bg-black" style="height: 5rem;">
+    <p style="padding-left: 5rem; line-height: 5rem;">Dúvidas? Ligue <a href="#"> 0800 591 2876</a></p>
+  </footer>
+  
+    <!--! MODAL -->
+    <div class="offcanvas offcanvas-end bg-black" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title mt-3" id="offcanvasRightLabel" style="font-size: 2.4rem;">Trocar de usuário</h5>
+        <button id="teste" type="button" class="btn-close btn-close-white me-1 mt-3" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <a href="../../index.html">
+          <div id="user-1" class="users container-fluid d-flex flex-row py-2" >
+            <div style="width: 90px">
+              <img src="../../../assets/ícones de usuário/205 - 4dIo1mc.png" alt="" style="width: 100%; border-radius: 5px;">
+            </div>
+            <p class="m-auto" style="font-size: 1.2rem;">JUDAHZIN</p>
+          </div>
+        </a>
+        <a href="../users/user-2.html">
+          <div id="user-2" class="users container-fluid d-flex flex-row py-2" >
+            <div style="width: 90px">
+              <img src="../../../assets/ícones de usuário/218 - 0tsTsw8.png" alt="" style="width: 100%; border-radius: 5px;">
+            </div>
+            <p class="m-auto" style="font-size: 1.2rem;">LUCASZIN</p>
+          </div>
+        </a>
+        <a href="../users/user-3.html">
+            <div id="user-2" class="users container-fluid d-flex flex-row py-2" >
+              <div style="width: 90px">
+                <img src="../../../assets/ícones de usuário/37 - WK2idvp.png" alt="" style="width: 100%; border-radius: 5px;">
+              </div>
+              <p class="m-auto" style="font-size: 1.2rem;">ALEXANDRE</p>
+            </div>
+        </a>
+        <a href="../users/user-5.html">
+          <div id="user-4" class="users container-fluid d-flex flex-row py-2" >
+            <div style="width: 90px">
+              <img src="../../../assets/ícones de usuário/182 - HRL7WZB.png" alt="" style="width: 100%; border-radius: 5px;">
+            </div>
+            <p class="m-auto" style="font-size: 1.2rem;">MAURÍCIO</p>
+          </div>
+        </a>
+        <div class="container-fluid d-flex justify-content-between gap-2 mt-3">
+          <a href="#" style="width: 48%; height: 3rem;"><button type="button" id="config" class="btn btn-secondary" style="width: 100%; height: 100%;">Configurações</button></a>
+          <a href="../../../fase 1 - login/login.html" style="width: 48%; height: 3rem;"><button type="button" id="sair" class="btn btn-outline-danger" style="width: 100%; height: 100%;">Sair</button></a>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  </body>
+</html>

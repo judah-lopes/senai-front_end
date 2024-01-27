@@ -1,0 +1,124 @@
+*{  
+    margin: 0;
+    padding: 0;
+    font-family: Netflix Sans;
+    color: white;
+
+    --red-netflix: #E50914;
+    --red-button: #7a0006;
+
+    font-size: 62.5%;
+}
+@font-face {
+    font-family: Netflix Sans;
+    src: url(../../assets/fonte/netflix-sans-font/NetflixSans-Regular.otf);
+}
+body{
+    background-image: url(../../assets/posters/fundo-netflix-escuro.jpg);
+    background-position: center;
+    /* background-size: cover; */
+}
+header{
+    background: #000000;
+    background: linear-gradient(180deg, #000000b3 0%, rgba(0,212,255,0) 100%);
+}
+.botoes{
+    background-color: var(--red-netflix);
+    color: #f5f5f5;
+}
+.botoes a{
+    width: 100%;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #f5f5f5;
+    text-decoration: none;
+}
+.botoes:hover{
+    background-color: var(--red-button);
+}
+   .input-group {
+    width: 60%;
+    display: flex; 
+    gap: 1rem;   
+   }
+   
+   .input {
+    width: 80%;
+    border: solid 1.5px #9e9e9e;
+    border-radius: 0.8rem;
+    background-color: #00000091;
+    padding: 1rem;
+    font-size: 2rem;
+    color: #f5f5f5;
+    transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+   }
+   
+   .user-label {
+    position: absolute;
+    top: -5px;
+    left: 12px;
+    color: #e8e8e8;
+    pointer-events: none;
+    transform: translateY(1.5rem);
+    transition: 150ms cubic-bezier(0.4,0,0.2,1);
+    font-size: 2rem;
+   }
+   
+   .input:focus, input:valid {
+    outline: none;
+    border: 1.5px solid #f5f5f5;
+   }
+   
+   .input:focus ~ label, input:valid ~ label {
+    transform: translateY(-50%) scale(0.8);
+    background-color: #000000cc;
+    padding: 0 .2em;
+    color: #f5f5f5;
+   }
+   .input-group button{
+    width: 18%;
+    border: none;
+    border-radius: 0.8rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+   }
+
+.w80-center{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.titulos{
+    font-weight: 800;
+    font-size: 5rem;
+}
+.textos{
+    margin: 2rem 0;
+    font-weight: 500; 
+    font-size: 2.4rem;
+}
+.main-sections section{
+    height: 450px;
+}
+footer{
+    width: 100%;
+
+    background-color: rgb(39, 39, 39);
+}
+footer p{
+    padding-left: 5rem;
+    line-height: 5rem;
+
+    color: #ffffff85;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer a{
+    color: #ffffff6c;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../assets/logo/simbolo/01_Netflix_Symbol_RGB/Netflix_Symbol_RGB.png" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/geral.css">
+    <link rel="stylesheet" href="../styles/recuperar-senha.css">
+    <link rel="stylesheet" href="../styles/media-recuperar-senha.css" media="screen and (max-width: 768px)">
+    <title>H&C - Avaliação (login)</title>
+</head>
+<body>
+<!--!- HEADER ---->
+    <header>
+        <img src="../../assets/logo/logo/01_Netflix_Logo_RGB/Netflix_Logo_RGB.png" alt="">
+        <div class="entrar">
+            <a href="../login.html">Entrar</a>
+        </div>
+        <!--!-- MAIN ----->
+    </header>    
+<!--!-- MAIN ----->
+    <main>
+        <div class="container">
+            <h1>Esqueci meu email / senha</h1>
+            <div class="content">
+            <!--?-- Form ----->
+                <form action="#">
+                    <p>Como você prefere redefinir sua senha?</p>
+                    <div class="escolhas">
+                        <label>
+                            <input type="radio" id="escolha1" name="escolha"> 
+                            <span>Email</span>
+                        </label>
+                        <!-- <label for="escolha1" class="escolha-label">Email</label> -->
+                    </div>
+                    <div class="escolhas" onclick="mudarEscolha()">
+                        <input type="radio" id="escolha2" name="escolha"> 
+                        <label for="escolha2" class="escolha-label">Mensagem de texto</label>
+                    </div>
+                </form>
+            <!--*-- Escolha1 ---->
+                <div class="escolha-email">
+                    <p>Enviaremos um email com instruções de como redefinir sua senha.</p>
+                    <input type="email" name="email" id="email" placeholder="nome@exemplo.com">
+                    <button type="submit">Enviar por email</button>
+                </div>
+            <!--*-- Escolha2 ---->
+                <div class="escolha-txt_msg">
+                    <p>Enviaremos uma mensagem de texto com um código de redefinição da sua senha. Sujeito a tarifas sobre o uso de dados e mensagens.</p>
+                    <input type="tel" name="tel" id="tel" placeholder="+99 99 99999-9999">
+                    <button type="submit">Enviar por texto</button>
+                </div>
+            </div>
+        </div>
+    </main>
+<!--!- FOOTER ---->
+    <footer>
+        <p>Dúvidas? Ligue <a href="#"> 0800 591 2876</a></p>
+    </footer>
+    <script src="../scripts/recuperar-senha.js"></script>
+</body>
+</html>

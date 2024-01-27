@@ -1,0 +1,34 @@
+/*!-- ICONES BOOTSTRAP --*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+/*!-- Fonte --*/
+@font-face {
+    font-family: Netflix Sans;
+    src: url(../../assets/fonte/netflix-sans-font/NetflixSans-Medium.otf);
+}
+*{
+    font-family: Netflix Sans;
+    color: white!important;
+}
+
+
+
+/*!-- Header --*/
+.nav-item{
+    font-size: 1.25rem;
+}
+.seta img, .seriesCapas img{
+    width: 100%;
+}
+
+/*!-- Main --*/
+a{
+    text-decoration: none;
+}
+
+/*!-- Footer --*/
+footer p{
+    border-top: 1px solid white;
+
+    color: #ffffff85;
+}

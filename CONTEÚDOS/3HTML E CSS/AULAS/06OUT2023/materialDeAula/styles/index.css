@@ -1,0 +1,51 @@
+*{
+    border: 0;
+    margin: 0;
+}
+body{
+    background-color: #303030;
+}
+#pagina{
+    width: 1200px;
+    margin: 10px auto;
+}
+h1{
+    text-align: center;
+
+    margin: 10px;
+
+    color: #00ff1a;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color: #00ff1a;
+
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    line-height: 60px;
+}
+#links{
+    width: 100%;
+    height: 60px;
+    background-color: #ff0000;
+
+    text-align: center;
+    line-height: 60px;
+}
+#links a{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+main{
+    width: 100%;
+    height: 60px;
+    background-color: #91ff00;
+    
+}
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: #e5ff00;    
+}

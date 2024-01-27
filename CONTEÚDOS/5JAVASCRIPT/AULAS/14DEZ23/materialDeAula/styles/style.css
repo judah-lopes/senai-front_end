@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+input{
+    width: 40rem;
+    height: 4rem;
+
+    padding-left: 1rem;
+
+    font-size: 2rem;
+}
+button{
+    width: 30rem;
+    height: 4rem;
+
+    font-size: 2rem;
+}
+#resposta{
+    padding: 3rem;
+
+    font-size: 2rem;
+
+    color: white;
+}
+#resposta h1{
+    margin-bottom: 1rem;
+    font-size: 4rem;
+    
+}

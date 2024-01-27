@@ -1,0 +1,58 @@
+/*!------ GERAL ------*/
+*{  
+    margin: 0;
+    padding: 0;
+    font-family: Netflix Sans;
+    color: white;
+
+    --red-netflix: #E50914;
+    --red-button: #7a0006;
+}
+@font-face {
+    font-family: Netflix Sans;
+    src: url(../../assets/fonte/netflix-sans-font/NetflixSans-Regular.otf);
+}
+a{
+    text-decoration: none;
+}
+a, button, select{
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: underline;
+}
+p, footer a{
+    color: #ffffff6c;
+}
+.page{
+    width: 100%;
+    height: 100%;
+    
+    background-color: #0000004f;
+}
+
+/*!------ HEADER ------*/
+header{
+    width: 100%;
+    height: 5.5rem;
+    background: #000000;
+    background: linear-gradient(180deg, #000000b3 0%, rgba(0,212,255,0) 100%);
+}
+header img{
+    margin-left: 2%;
+    height: 100%;
+}
+
+/*!------ FOOTER ------*/
+footer{
+    width: 100%;
+    height: 5rem;
+
+    background-color: #000000c5;
+}
+footer p{
+    padding-left: 5rem;
+    line-height: 5rem;
+
+    color: #ffffff85;
+}

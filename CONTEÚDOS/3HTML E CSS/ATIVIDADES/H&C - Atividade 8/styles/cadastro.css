@@ -1,0 +1,28 @@
+.pagina{
+    background-color: #092c29;
+}
+main{
+    background-color: #ACA99A;
+}
+h2{
+    color: #092c29;
+}
+label{
+    color: #092c29;
+}
+input::placeholder{
+    color: #092c296a;
+}
+input:focus{
+    background-color: white;
+}
+button{
+    background-color: #092c29;
+    
+    color: rgba(255, 255, 255, 0.824);
+}
+button:hover{
+    background-color: #18433f;
+    
+    color: white;
+}

@@ -1,0 +1,82 @@
+@keyframes mudaCor {
+    9%{
+        background-color: white;
+    }
+    18%{
+        background-color: violet;
+    }
+    27%{
+        background-color: purple;
+    }
+    36%{
+        background-color: red;
+    }
+    45%{
+        background-color: orange;
+    }
+    54%{
+        background-color: yellow;
+    }
+    63%{
+        background-color: greenyellow;
+    }
+    72%{
+        background-color: green;
+    }
+    81%{
+        background-color: darkcyan;
+    }
+    90%{
+        background-color: blue;
+    }
+    100%{
+        background-color: purple;
+    }
+}
+@keyframes mudaBg{
+    0%{
+        background-image: url(../images/messi-cr7.jpg);
+    }
+    50%{
+        background-image: url(../images/tradition.png);
+    }
+    100%{
+        background-image: url(../images/fallqueen-square.jpg);
+    }
+}
+@font-face {
+    font-family: Dela Gothic One;
+    src: url(../fonts/Dela_Gothic_One/DelaGothicOne-Regular.ttf);
+}
+@font-face {
+    font-family: Old London;
+    src: url(../fonts/old_london/OldLondon.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: old london;
+    color: crimson;
+}
+h3{
+    font-family: dela gothic one;
+color: crimson;
+}
+#caixaCor{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    animation-name: mudaCor;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s
+}
+#caixaImagem{
+    width: 500px;
+    height: 500px;
+    background-image: url(../images/fallqueen-square.jpg);
+    background-size: cover;
+    animation: mudaBg 5s infinite;
+}

@@ -1,0 +1,28 @@
+
+/*!---- Conteúdo ----*/
+main{
+    margin: 20px auto;
+    padding: 20px;
+
+    width: 80%;
+
+    border-radius: 30px;
+    background-color: white;
+
+    text-align: center;
+}
+main h1{
+    padding: 20px;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+main img{
+    width: 80%;
+
+    border-radius: 20px;
+}
+main p{
+    margin-top: 15px;
+
+    text-align: left;
+}

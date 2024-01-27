@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #585858;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    
+    font-size: 3.5em;
+    color: white;
+}
+.listas{
+    margin-bottom: 40px;
+    width: 60%;
+    border-radius: 10px;
+    
+    overflow: hidden;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h3{
+    padding: 15px;
+    color: white;        
+}
+h5{
+    padding: 5px;
+
+    font-size: 1em;
+    color: #000000;
+}
+#viagem{
+    background-color: #77f85e;
+}
+#viagem h3{
+    background-color: green;
+}
+ol, ul, dl{
+    padding: 15px 10px;
+}
+ol li{
+    margin-left: 40px;
+}
+#compras{
+    background-color: #5e87f8;
+}
+#compras h3{
+    background-color: #0000ca;
+}
+#compras ul li{
+    margin-left: 20px;
+}
+#dicionario{
+    background-color: #b85ef8;
+}
+#dicionario h3{
+    background-color: #7001af;
+}
+#dicionario dt{
+    margin-left: 10px;
+
+    font-size: 1.1em;
+}
+#dicionario dd{
+    margin-left: 20px;
+
+    color: #252525;
+}
+#computadores{
+    background-color: #d4f85e;
+}
+#computadores h3{
+    background-color: #bcaf02;
+}
+#computadores ol li{
+    margin-left: 20px;
+}
+#computadores ol dt{
+    font-size: 1.2em;
+}
+#computadores ol dd{
+    color: #252525;
+}
+#computadores h5{
+    margin-left: 25px;
+}
+#computadores ul{
+    padding: 0;
+}
+#sumario{
+    background-color: #f85e5e;
+}
+#sumario h3{
+    background-color: #bc0202;
+}
+#sumario ul li{
+    margin-left: 20px;
+}

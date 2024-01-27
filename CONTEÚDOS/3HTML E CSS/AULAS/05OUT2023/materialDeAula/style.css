@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Dela+Gothic+One&family=Inter&family=Lexend:wght@300;400;500&family=Young+Serif&display=swap');
+*{
+    border: 0;
+    margin: 0;
+}
+body{
+    margin: 8% 5%;
+    background-color: #303030;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #ffffff;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    background-color: #111111;
+    margin-bottom: 2em;
+    padding: 0.8em;
+    border-radius: 0.5em;
+}
+h1{
+    text-align: center;
+    
+    font-family:'Black Ops One';
+    font-size: 5em;
+    
+    width:fit-content;
+    color: aqua;
+}
+.subTitle{
+    text-align: center;
+    
+    font-size: 1.3em;
+    font-family: 'young serif';
+}
+.artigos{
+    background-color: #1d1d1d;
+    
+    margin-bottom: 2em;
+    padding: 1em;
+    padding-top: 2px;
+    
+    border-radius: 0.8em;
+}
+h2, h3, h4{
+    align-self: flex-start;
+    padding: 0.3em;
+    padding-left: 0;
+    
+    font-family: 'lexend';
+    color: #ff7300;
+}
+p{
+    font-family: inter;
+    font-size: 1.1em;
+}
+.img{
+    background-color: #1d1d1d;
+
+    width: 80%;
+    padding: 20px;
+    border-radius: 1em;
+    
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.img img{
+    width: 30%;
+    padding: 1em;
+    border-radius: 1.5em;
+
+    background-color: #111111;
+}

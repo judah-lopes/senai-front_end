@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/geral.css">
+    <title>Aula 9 - Formulário</title>
+</head>
+<body>
+    <h1>FORMULÁRIO</h1>
+    <div class="formulario">
+        <form action="formulario.php" method="post">
+            <label for="nome"> Nome:</label>
+            <input type="text" id="nome" placeholder="João da Silva">
+    
+            <label for="data"> Data de Nascimento:</label>
+            <input type="date" id="data" placeholder="00/00/0000">
+            
+            <label for="idade"> Digite sua idade:</label>
+            <input type="number" id="idade">
+            
+            <label for="celular"> Celular:</label>
+            <input type="tel" id="celular" placeholder="(99) 99999-9999">
+            
+            <label for="email"> Email:</label>
+            <input type="email" id="email" placeholder="joaodasilva@email.com">
+            
+            <label for="senha"> Escolha uma senha:</label>
+            <input type="password" id="senha" placeholder="********">
+
+            <fieldset>
+                <legend> Escolha um curso:</legend>
+                <div class="cursos last">
+                    <div class="c">
+                        <input type="radio" name="curso"> Front-End
+                    </div>
+                    <div class="c">
+                        <input type="radio" name="curso"> Back-End
+                    </div>
+                    <div class="c">
+                        <input type="radio" name="curso"> Data Science
+                    </div>
+                </div>
+            </fieldset>
+
+            <label for="cor"> Cor Favorita:</label>
+            <input type="color" id="cor" class="last">
+
+            <label> Escolha dois jogos de sua preferência:</label>
+            <div class="jogos">
+                <div class="j">
+                    <input type="checkbox"> Minecraft
+                </div>
+                <div class="j">
+                    <input type="checkbox"> FIFA
+                </div>
+                <div class="j">
+                    <input type="checkbox"> CS source
+                </div>
+                <div class="j">
+                    <input type="checkbox"> Fortnite
+                </div>
+            </div>
+            
+            <label for="time"> Time:</label>
+            <select id="time" class="last">
+                <option selected> Nenhum
+                <option> Botafogo
+                <option> Bragantino
+                <option> Grêmio
+                <option> Palmeiras
+                <option> Flamengo
+                <option> Fortaleza
+                <option> Fluminense
+                <option> Athletico-PR
+                <option> Atlético-MG
+                <option> São Paulo
+                <option> Cuiabá
+                <option> Internacional
+                <option> Cruzeiro
+                <option> Corinthians
+                <option> Santos
+                <option> Bahia
+                <option> Vasco
+                <option> Goiás 
+                <option> Coritiba
+                <option> América-MG
+            </select>    
+            
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+</body>
+</html>

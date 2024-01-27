@@ -1,0 +1,100 @@
+/*!---- CABEÇALHO ----*/
+header{
+    height: 70px;
+}
+header h1{
+    font-size: 2em;
+}
+nav{
+    display: none;
+}
+.menuMobile{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ffffff;
+    
+    display: block;
+    
+    text-align: center;
+    line-height: 40px;
+
+    cursor: pointer;
+}
+.menuMobile h1{
+    font-size: 1em;
+}
+
+/*!---- MAIN ----*/
+main{
+    width: 97%;
+}
+h2{
+    margin: 5px 0px 40px 0px;
+    padding-bottom: 8px;
+    
+    border-bottom: 3px solid var(--rosa);
+    
+    font-size: 1.5em;
+}
+
+    /*!------ ARTE ------*/
+    /* .arteDestaque{
+        padding: 20px;
+    } */
+    .arteDestaque div figcaption{
+        font-size: 0.9em;
+        padding: 0;
+    }
+    .arteDestaque div button{
+        margin-top: 10px;
+        margin-bottom: 0;
+
+        height: 35px;
+
+        border-radius: 5px;
+
+        font-size: 1em;
+    }
+    
+    /*!------ TEXTO ------*/
+    .p p{
+        margin-bottom: 10px;
+
+        font-size: 0.95em;
+        font-weight: 600;
+    }
+
+    /*!--- MAIS ARTES ---*/
+    .maisArtes{
+        flex-direction: column;
+    }
+    .maisArtes article{
+        width: 100%;
+    }
+    .maisArtes article div{
+        margin: 20px;
+    }
+    .maisArtes h3, .maisArtes figure, .maisArtes img{
+        margin-bottom: 15px;
+    }
+    .maisArtes h3{
+        font-size: 1.5em;
+    }
+    .maisArtes figcaption{
+        font-size: 1em;
+    }
+    .maisArtes button{
+        width: 18%;
+        height: 35px;
+
+        font-size: 1em;
+    }
+
+/*!----- FOOTER -----*/
+footer{
+    height: 50px;
+}
+footer p{
+        line-height: 50px;
+        font-size: 1em;
+}

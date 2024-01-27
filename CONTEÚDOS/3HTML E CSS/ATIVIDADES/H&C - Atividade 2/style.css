@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Dela+Gothic+One&family=Inter&family=Lexend:wght@300;400;500&family=Young+Serif&display=swap');
+*{
+    --cor-titulos: #de5c05;
+    border: 0;
+    margin: 0;
+}
+body{
+    background-color: #303030;
+    
+    margin: 3%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    color: white;
+
+    font-family: inter;
+    font-size: 20px;
+}
+.categorias h2{
+    font-size: 40px;
+    font-family: lexend;
+
+    color: var(--cor-titulos);
+
+    margin: 0.6em 0px;
+}
+li{
+    margin: 10px;
+}
+/*! TITULO */
+#titulo{
+    color: var(--cor-titulos);
+    text-align: center;
+
+    width: fit-content;
+}
+h1{
+    font-size: 80px;
+    font-family: 'Black Ops One';
+}
+/*! RESUMO  */
+#resumo{
+    text-align: center;
+}
+/*! Tipos de treino */
+#tiposDeTreino li{
+    list-style: none;
+}
+h3{
+    color: var(--cor-titulos);
+}

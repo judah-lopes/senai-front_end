@@ -1,0 +1,45 @@
+body{
+    background-image: none;
+    animation: none;
+    background-color: black;
+}
+
+/*!------ HEADER ------*/
+header{
+    height: 90px;
+}
+header img{
+    margin: 0;
+}
+
+/*!------ MAIN ------*/
+    /*!------ container ------*/
+    .container{
+        margin-bottom: 0;
+        width: 100%;
+        height: 100%;
+        padding: 0 5%;
+    }
+
+    /*?------ Form ------*/
+    form{
+        width: 100%;
+    }
+    hr{
+        background-color: #f800006c;
+    }
+    .cadastro{
+        border-top: 0;
+        /* border-bottom: 0.1rem solid #ffffff6c; */
+
+        padding-bottom: 10px;
+    }
+
+/*!------ FOOTER ------*/
+footer{
+    height: 3rem;
+}
+footer p{
+    padding-left: 5%;
+    line-height: 0;
+}

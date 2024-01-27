@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/geral.css">
+    <link rel="stylesheet" href="styles/media.css" media="screen and (max-width: 768px)">
+    <link rel="stylesheet" href="styles/landscape.css" media="screen and (orientation: landscape)">
+    <link rel="stylesheet" href="styles/portrait.css" media="screen and (orientation: portrait)">
+    <title>Aula 12 - Responsividade</title>
+</head>
+<body>
+    <div class="pagina">
+        <header>
+            <div class="logo">
+                <img src="images/Sem título.png" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Atividades</a></li>
+                    <li><a href="">Níveis</a></li>
+                </ul>
+            </nav>
+            <div class="menuMobile">
+                <img src="images/menuIcon.svg" alt="">
+            </div>
+        </header>
+        <main>
+            <picture>
+                <source srcset="images/mulherdancandoMenor.jpg" media="screen and (max-width: 768px)">
+                <img src="images/mulherdancando.jpg" alt="">
+            </picture>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor veniam iure, dolores corporis, cupiditate aliquam dolorem magnam libero at, molestiae numquam earum non facere aut dolorum culpa enim voluptate sapiente.</p>
+        </main>
+        <footer></footer>
+    </div>
+</body>
+</html>

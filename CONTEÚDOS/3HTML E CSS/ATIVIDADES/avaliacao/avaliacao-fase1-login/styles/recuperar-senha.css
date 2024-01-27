@@ -1,0 +1,115 @@
+*{
+    color: #333333;
+    letter-spacing: .1px;
+}
+body{
+    background-image: url(../../assets/posters/fundo-netflix.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*!------ HEADER ------*/
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.entrar{
+    margin-right: 5%;
+    height: 100%;
+}
+.entrar a{
+    width: 40px;
+    padding: 12px 16px;
+
+    background-color: #00000025;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 5.5rem;
+
+    color: var(--red-netflix);
+    font-size: 1.3em;
+    font-weight: 800;
+}
+
+/*!------ MAIN ------*/
+main{
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    /*!------ container ------*/
+    .container{
+        margin-bottom: 5rem;
+        width: 23.5rem;
+        min-height: 25rem;
+        padding: 3rem 2.5rem;
+        
+        display: flex;
+        flex-direction: column;
+        
+        background-color: #f3f3f3;
+    }
+    h1{
+        margin-bottom:1.5rem
+    }
+    p, label{
+        margin-bottom: 1rem;
+        
+        font-weight: 400;
+        font-size: 1rem;
+        color: #3d3d3d;
+    }
+        /*?------ Form ------*/
+        form{
+            margin-bottom: 1rem;
+        }
+        .escolhas input{
+            margin-left: 1.5rem;
+        }
+        .escolhas input[type=radio]{
+            margin-bottom: 5px;
+            margin-right: 5px;
+            
+            border: 1px solid #f4f4f4;
+            width: 2em;
+            height: 2em;
+            vertical-align: middle;
+        }
+        .content form button:hover{
+            background-color: #5daeff;
+        }
+        
+        /**------ Escolha1 ------*/
+        .escolha-email{
+            display: flex;
+            flex-direction: column;
+        }
+        .escolha-email input,
+        .escolha-txt_msg input{
+            height: 2.6rem;
+            margin-bottom: 30px;
+            padding-left: 10px;
+        }
+        .escolha-email button,
+        .escolha-txt_msg button{
+            height: 3rem;
+            
+            font-size: 1.3rem;
+            color: white;
+            
+            border:none;
+            border-radius: 2px;
+            background-image: linear-gradient(180deg,#0080ff,#0277ec);
+            box-shadow: 0 1px 0 rgba(0,0,0,.55);
+        }
+        
+        /**------ Escolha2 ------*/
+        .escolha-txt_msg{
+            display: none;
+            flex-direction: column;
+        }
+        .escolha-txt_msg input{
+            width: 80%;
+        }

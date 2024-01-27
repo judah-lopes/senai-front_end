@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+
+    background-color: #303030;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    font-size: 4em;
+}
+#inputs{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input, textarea, button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+input::placeholder{
+    line-height: 20px;
+    font-size: 16px;
+}
+
+hr{
+    width: 100%;
+}

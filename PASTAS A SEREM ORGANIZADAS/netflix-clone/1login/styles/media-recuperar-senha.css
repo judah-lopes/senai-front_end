@@ -1,0 +1,33 @@
+body{
+    background-image: none;
+    background-color: #f3f3f3;
+}
+
+/*!------ HEADER ------*/
+header{
+    height: 3.75rem;
+
+    background-image: none;
+    border-bottom: 0.1rem solid #00000021;
+}
+header img{
+    margin: 0;
+}
+.entrar{
+    margin-right: 2%;
+    height: 100%;
+}
+.entrar a{
+    width: 30px;
+    padding: 6px 10px;
+
+    font-size: 1rem;
+    line-height: 3.75rem;
+
+    background-color: transparent;
+}
+
+/*!------ MAIN ------*/
+.container{
+    width: 100%;
+}
