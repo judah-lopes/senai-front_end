@@ -1,3 +1,39 @@
+# <h1 align="center">⚠️⚠️⚠️ ATENÇÃO ⚠️⚠️⚠️</h1>
+<h3>ESTE REPOSITÓRIO É UMA CÓPIA DO REPOSITÓRIO ORIGINAL!</h3>
+O original foi criado em uma <a href="https://github.com/JudahzinSenai">CONTA</a> que usa o email que o senai fornece para cada aluno. No entanto, o senai cancela estes emails após um tempo do fim do curso.
+Dito isto, copiei todos os arquivos do repositório original para cá pois quero registrá-lo no meu portfolio.
+<h3>POR QUE DESTE AVISO?</h3> 
+O repositório está do jeito que estava quando o curso foi finalizado, mas não está do jeito que eu quero que fique, quero deixá-lo completo e finalizado. 
+<h3>POR QUE "CONSERTAR" O CÓDIGO AQUI E NÃO NA CONTA ORIGINAL?</h3>
+Porque quero demonstrar que fui eu mesmo quem fez registrando que eu sei identificar o erro e consertá-lo. Além disso, não sei quanto tempo de email-senai eu ainda tenho ativo e arrumar este repositório não é minha prioridade, minha prioridade é encontrar um emprego na área e isto aqui será um projeto para o meu tempo livre. Quem sabe eu até refaça o curso do início para praticar...
+<h3>INFORMAÇÕES DO REPOSITÓRIO ORIGINAL?</h3>
+- O repositório original teve mais de 90 commmits
+- O primeiro commit foi dia 03/10/23 e o último dia 14/12/23
+
+
+<br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <h1 align="center">:file_cabinet: senai-curso-front_end</h1>
 
 ## 📜 Descrição
