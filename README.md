@@ -7,31 +7,11 @@ O repositório está do jeito que estava quando o curso foi finalizado, mas não
 <h3>POR QUE "CONSERTAR" O CÓDIGO AQUI E NÃO NA CONTA ORIGINAL?</h3>
 Porque quero demonstrar que fui eu mesmo quem fez registrando que eu sei identificar o erro e consertá-lo. Além disso, não sei quanto tempo de email-senai eu ainda tenho ativo e arrumar este repositório não é minha prioridade, minha prioridade é encontrar um emprego na área e isto aqui será um projeto para o meu tempo livre. Quem sabe eu até refaça o curso do início para praticar...
 <h3>INFORMAÇÕES DO REPOSITÓRIO ORIGINAL?</h3>
-- O repositório original teve mais de 90 commmits
-- O primeiro commit foi dia 03/10/23 e o último dia 14/12/23
+    - O repositório original teve mais de 90 commmits;<br>
+    - O primeiro commit foi dia 03/10/23 e o último dia 14/12/23
 
 <hr>
 <br><br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <h1 align="center">:file_cabinet: senai-curso-front_end</h1>
