@@ -10,7 +10,7 @@ Porque quero demonstrar que fui eu mesmo quem fez registrando que eu sei identif
 - O repositório original teve mais de 90 commmits
 - O primeiro commit foi dia 03/10/23 e o último dia 14/12/23
 
-
+<hr>
 <br><br>
 
 
