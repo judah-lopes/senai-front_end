@@ -28,7 +28,7 @@ Documentar e salvar todos os arquivos criados ao longo do curso
 
 -   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" width="14px;"/> HTML;
 -   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" width="14px"/> CSS;
-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" width="18px"/> BOOTSTRAP;
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" width="18px"/> BOOTSTRAP;
 -   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width="14px"/> JAVASCRIPT;
     - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" width="18px"/> JQUERY;
           
